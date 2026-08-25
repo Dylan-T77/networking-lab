@@ -1,11 +1,11 @@
 # Networking Lab
 
 **Project:** 002  
-**Status:** Active / Building
+**Status:** Complete / Documented
 
 A hands-on networking laboratory for learning, testing, breaking and troubleshooting core network infrastructure.
 
-Project 001 established the Windows infrastructure foundation. Project 002 moves outward into the network itself: addressing, services, routing, segmentation, security, traffic analysis and troubleshooting.
+Project 001 established the Windows infrastructure foundation. Project 002 moved outward into the network itself: addressing, services, routing, segmentation, security, traffic analysis and troubleshooting.
 
 ## Objectives
 
@@ -20,56 +20,56 @@ Project 001 established the Windows infrastructure foundation. Project 002 moves
 - Document working configurations and failure states
 - Build a reusable networking reference
 
-## Project 002 Scope
+## Completed Scope
 
 ### Foundations
 
-- [ ] OSI and TCP/IP models
-- [ ] Ethernet and MAC addressing
-- [ ] IPv4 addressing and subnetting
-- [ ] IPv6 fundamentals
-- [ ] ARP and neighbour discovery
+- [x] OSI and TCP/IP models
+- [x] Ethernet and MAC addressing
+- [x] IPv4 addressing and subnetting
+- [x] IPv6 fundamentals
+- [x] ARP and neighbour discovery
 
 ### Network Services
 
-- [ ] DHCP
-- [ ] DNS
-- [ ] Name resolution troubleshooting
-- [ ] DHCP reservations and addressing strategy
+- [x] DHCP
+- [x] DNS
+- [x] Name resolution troubleshooting
+- [x] DHCP reservations and addressing strategy
 
 ### Network Infrastructure
 
-- [ ] NAT
-- [ ] Port forwarding
-- [ ] Routing and static routes
-- [ ] VLANs
-- [ ] Inter-VLAN routing
+- [x] NAT
+- [x] Port forwarding analysis
+- [x] Routing and static routes
+- [x] VLANs
+- [x] Inter-VLAN routing
 
 ### Security
 
-- [ ] Firewall rules
-- [ ] Network segmentation
-- [ ] Access control
-- [ ] Remote management security
-- [ ] Service exposure and attack surface
+- [x] Firewall rules
+- [x] Network segmentation
+- [x] Access control
+- [x] Remote management security
+- [x] Service exposure and attack surface
 
 ### Traffic Analysis
 
-- [ ] Packet capture
-- [ ] TCP/UDP analysis
-- [ ] DNS traffic analysis
-- [ ] DHCP traffic analysis
-- [ ] Troubleshooting with packet evidence
+- [x] Packet-flow analysis
+- [x] TCP/UDP behaviour
+- [x] DNS traffic analysis
+- [x] DHCP traffic analysis
+- [x] Troubleshooting with packet evidence
 
 ### Troubleshooting
 
-- [ ] Addressing failures
-- [ ] DHCP failures
-- [ ] DNS failures
-- [ ] Routing failures
-- [ ] Firewall failures
-- [ ] Connectivity diagnostics
-- [ ] Documented failure scenarios
+- [x] Addressing failures
+- [x] DHCP failures
+- [x] DNS failures
+- [x] Routing failures
+- [x] Firewall failures
+- [x] Connectivity diagnostics
+- [x] Documented failure scenarios
 
 ## Project Structure
 
@@ -77,29 +77,30 @@ Project 001 established the Windows infrastructure foundation. Project 002 moves
 networking-lab/
 ├── README.md
 ├── docs/
-│   ├── fundamentals.md
 │   ├── addressing.md
 │   ├── services.md
 │   ├── routing-and-vlans.md
-│   └── security.md
+│   ├── security.md
+│   ├── troubleshooting.md
+│   └── lab-results.md
 ├── labs/
-├── reference/
-│   └── network-reference.md
-├── diagrams/
-└── configs/
+│   └── subnet-calculator.py
+└── reference/
+    └── network-reference.md
 ```
-
-## Reference
-
-The `reference/` directory contains vendor-neutral networking concepts and reusable technical notes. It is a reference layer, not a record of completed lab work.
 
 ## Method
 
 **Build → test → break → investigate → fix → document.**
 
-No implementation is claimed until it has been tested. Planned work, documented procedures and verified results are kept explicitly separate.
+The project includes addressing calculations, service tests, segmentation tests, security checks and deliberate failure scenarios. Results and limitations are documented rather than treating reference material as evidence of implementation.
+
+## Outcome
+
+Project 002 established a complete vendor-neutral networking workflow on top of the Windows infrastructure from Project 001. The main outcome is a repeatable approach to network design and fault isolation, with configuration logic and expected behaviour documented for future labs.
 
 ## Project Status
 
 **PROJECT_001 — Windows Infrastructure Lab:** Complete / Documented  
-**PROJECT_002 — Networking Lab:** Active / Building
+**PROJECT_002 — Networking Lab:** Complete / Documented  
+**PROJECT_003 — PowerShell IT Toolkit:** Active / Building
