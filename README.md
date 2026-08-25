@@ -101,6 +101,6 @@ Project 002 established a complete vendor-neutral networking workflow on top of 
 
 ## Project Status
 
-**PROJECT_001 — Windows Infrastructure Lab:** Complete / Documented  
-**PROJECT_002 — Networking Lab:** Complete / Documented  
-**PROJECT_003 — PowerShell IT Toolkit:** Active / Building
+**PROJECT_001 - Windows Infrastructure Lab:** Complete / Documented  
+**PROJECT_002 - Networking Lab:** Complete / Documented  
+**PROJECT_003 - PowerShell IT Toolkit:** Active / Building
