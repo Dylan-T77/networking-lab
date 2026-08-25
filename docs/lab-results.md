@@ -1,4 +1,4 @@
-# Project 002 — Networking Lab Results
+# Project 002 - Networking Lab Results
 
 **Status:** Complete  
 **Project:** 002  
@@ -90,19 +90,19 @@ Baseline policy:
 
 ## 6. Failure scenarios
 
-### Scenario A — Wrong subnet mask
+### Scenario A - Wrong subnet mask
 
 A client was modelled with an incorrect mask. The host remained locally configured but could not correctly determine the remote network boundary. Restoring `/24` returned normal routing behaviour.
 
-### Scenario B — Incorrect default gateway
+### Scenario B - Incorrect default gateway
 
 The client retained a valid address but could not reach off-subnet destinations. Gateway correction restored routed connectivity.
 
-### Scenario C — DNS failure
+### Scenario C - DNS failure
 
 Raw IP connectivity was retained while hostname resolution failed. Testing the DNS server independently separated the name-resolution fault from the underlying network path.
 
-### Scenario D — Firewall denial
+### Scenario D - Firewall denial
 
 A permitted client-to-server flow was deliberately denied. Packet/path testing showed that addressing and routing were intact; restoring the rule returned the service path.
 
