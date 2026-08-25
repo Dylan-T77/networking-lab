@@ -83,9 +83,9 @@ Baseline policy:
 | Client reaches own gateway | Pass | PASS |
 | Client reaches authorised server service | Pass | PASS |
 | Guest reaches Internet | Pass | PASS |
-| Guest reaches Management VLAN | Block | PASS — blocked |
-| Unsolicited WAN connection | Block | PASS — blocked |
-| Unapproved inbound port | Block | PASS — blocked |
+| Guest reaches Management VLAN | Block | PASS - blocked |
+| Unsolicited WAN connection | Block | PASS - blocked |
+| Unapproved inbound port | Block | PASS - blocked |
 | Management access from authorised segment | Pass | PASS |
 
 ## 6. Failure scenarios
